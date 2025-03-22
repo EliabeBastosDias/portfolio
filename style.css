@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #000000;
+    color: #8ECAE6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  #particles-js {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    pointer-events: none;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 900px;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+  }
+  
+  .content-box {
+    background-image: linear-gradient(to right, #240046, #3C096C);
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    padding: 25px;
+    margin-bottom: 25px;
+    border-left: 5px solid #FB8500;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .content-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+  }
+  
+  h1 {
+    font-size: 2.8rem;
+    color: #FFB703;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 1.9rem;
+    color: #FF9E00;
+    margin-bottom: 15px;
+  }
+  
+  img.profile-img {
+    display: block;
+    margin: 50px auto 30px;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #FFB703;
+  }
+  
+  footer {
+    font-size: 0.95rem;
+    color: #8ECAE6;
+    text-align: center;
+    margin-top: 25px;
+    padding: 15px;
+    background-color: rgba(33, 158, 188, 0.9);
+    border-radius: 12px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  a {
+    color: #FFB703;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  a:hover {
+    color: #FB8500;
+    text-decoration: underline;
+  }
+  
+  ul {
+    padding-left: 0;
+    list-style-position: inside;
+  }
+  
+  ul li {
+    margin-bottom: 12px;
+    text-align: left;
+    display: inline-block;
+    width: 80%;
+  }
+  
+  .contact-link {
+    display: block;
+    margin: 25px 0;
+    font-size: 1.2rem;
+    color: #01161E;
+    padding: 10px 20px;
+    background-color: #FFB703;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .contact-link:hover {
+    background-color: #FB8500;
+    color: #8ECAE6;
+    text-decoration: none;
+  }
